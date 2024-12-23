@@ -7,25 +7,25 @@ body {
 
 h2 {
     color: #333;
-    text-align: center; /* 預設情況下標題靠左 */
+    text-align: center; 
 }
 
 .container, #error-message {
-    text-align: center; /* 水平置中 */
+    text-align: center; 
 }
 
 #qrcode, #qrcode-table, #qrcode-size {
     margin: 20px auto;
     display: block;
-    text-align: center; /* QR Code 始終置中 */
+    text-align: center; 
     width: 90%; 
     max-width: 300px; 
 }
 
 #url-input, button {
     text-align: center;
-    display: inline-block; /* 讓label和input在同一行 */
-    vertical-align: middle; /* 讓元素垂直對齊 */
+    display: inline-block; 
+    vertical-align: middle; 
 }
 
 #url-input {
@@ -45,15 +45,14 @@ h2 {
     display: none;
 }
 
-/* 手機模式時的調整 */
 @media screen and (max-width: 768px) {
     #qrcode, #qrcode-table, #qrcode-size {
         width: 80%; 
     }
     label, button {
         display: block;
-        text-align: center; /* 手機時label和button置中 */
-        margin: 10px auto; /* 讓間距更一致 */
+        text-align: center; 
+        margin: 10px auto; 
     }
     #url-input {
         height: 45px;
@@ -66,14 +65,13 @@ h2 {
     }
 }
 
-/* 更小螢幕時，繼續維持置中 */
 @media screen and (max-width: 480px) {
     #qrcode, #qrcode-table, #qrcode-size {
         width: 100%; 
     }
     label, button {
-        text-align: center; /* 手機時label和button置中 */
-        margin: 10px auto; /* 讓間距更一致 */
+        text-align: center;
+        margin: 10px auto; 
     }
     #url-input {
         height: 45px;
