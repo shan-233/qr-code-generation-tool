@@ -1,5 +1,6 @@
 # qr-code-generation-tool
-a simple project for practicing QR code generation.
+a simple project for practicing QR code generation. 
+[demo](https://shan-233.github.io/qr-code-generation-tool/)
 
 # Technologies Used
 | Using | Version |
